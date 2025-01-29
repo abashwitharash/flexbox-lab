@@ -124,5 +124,13 @@
     display: flex;
     align-items: center;
     gap: 10px;
+  }
 
+
+  /*  subnav section is complete and added a border to seperate for aesthetics */
+  #subnav {
+    border: solid 2px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
   }
