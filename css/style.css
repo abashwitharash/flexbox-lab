@@ -20,18 +20,25 @@
     margin: 0;
   }
   
+
+  /* styled the hero  */
+  
   section {
     height: 460px;
     background-color: black;
     color: white;
     padding: 24px 72px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 
   
   h1,
   h2 {
-    display: flex;
-    justify-self: center;
+ text-align: center;
+    
   }
   
   h1 {
@@ -51,7 +58,6 @@
     border-radius: 29px;
     border: 0px;
     padding: 0 24px;
-    display: flex;
   }
   
   main {
@@ -114,12 +120,9 @@
     gap: 20px;
   }
 
-
-
   #trending {
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center;
     gap: 10px;
 
   }
